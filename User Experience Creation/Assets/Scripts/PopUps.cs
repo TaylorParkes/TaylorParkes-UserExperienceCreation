@@ -4,21 +4,20 @@ using UnityEngine;
 
 public class PopUps : MonoBehaviour
 {
+    // Opening Menu PopUps
+    public GameObject OpenMenu;
     
-    public GameObject QuitMenu;
-
-
     public void OpenPopUp()
     {
-        if (QuitMenu.activeInHierarchy == false)
-        QuitMenu.SetActive(true);
+        if (OpenMenu.activeInHierarchy == false)
+        OpenMenu.SetActive(true);
         
-        else QuitMenu.SetActive(false);
+        else OpenMenu.SetActive(false);
 
-    }  
+    } 
+    // Close Menu PopUps
     public GameObject CloseMenu;
-
-
+    
     public void ClosePopUp()
     {
         if (CloseMenu.activeInHierarchy == true)
