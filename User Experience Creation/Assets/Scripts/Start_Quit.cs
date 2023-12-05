@@ -8,7 +8,7 @@ public class Start_Quit : MonoBehaviour
     // Load Character Select
     public void Login()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Gameplay");
     }
     
     // Close Game
