@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Login_Check.cs" />
      <Compile Include="Assets\Scripts\Back_Button.cs" />
      <Compile Include="Assets\Scripts\Tab_Input_Field_CreateAccount.cs" />
+     <Compile Include="Assets\Scripts\Open_Settings.cs" />
      <Compile Include="Assets\Scripts\Create_New.cs" />
      <Compile Include="Assets\Scripts\Start_Quit.cs" />
      <Compile Include="Assets\Scripts\PopUps.cs" />
