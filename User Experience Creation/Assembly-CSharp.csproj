@@ -43,13 +43,16 @@
      <Compile Include="Assets\Scripts\DOB_dropdown.cs" />
      <Compile Include="Assets\Scripts\Help_Button.cs" />
      <Compile Include="Assets\Scripts\Tab_Input_Field_MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Create_Account.cs" />
      <Compile Include="Assets\Scripts\Login_Check.cs" />
+     <Compile Include="Assets\Scripts\Character_Creation_Select.cs" />
      <Compile Include="Assets\Scripts\Back_Button.cs" />
      <Compile Include="Assets\Scripts\Tab_Input_Field_CreateAccount.cs" />
      <Compile Include="Assets\Scripts\Open_Settings.cs" />
      <Compile Include="Assets\Scripts\Create_New.cs" />
      <Compile Include="Assets\Scripts\Start_Quit.cs" />
      <Compile Include="Assets\Scripts\PopUps.cs" />
+     <Compile Include="Assets\Scripts\Email_Address.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
