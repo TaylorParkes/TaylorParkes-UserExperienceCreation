@@ -42,7 +42,7 @@ public class Create_Account : MonoBehaviour
        }
     }
 
-       // Enter continues through to next page
+       // Enter does same as pressing Accept on screen
         void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return))

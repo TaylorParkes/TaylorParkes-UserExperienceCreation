@@ -40,19 +40,22 @@
     <Analyzer Include="D:\Unity 2022.3.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\DOB_dropdown.cs" />
-     <Compile Include="Assets\Scripts\Help_Button.cs" />
-     <Compile Include="Assets\Scripts\Tab_Input_Field_MainMenu.cs" />
-     <Compile Include="Assets\Scripts\Create_Account.cs" />
-     <Compile Include="Assets\Scripts\Login_Check.cs" />
-     <Compile Include="Assets\Scripts\Character_Creation_Select.cs" />
-     <Compile Include="Assets\Scripts\Back_Button.cs" />
-     <Compile Include="Assets\Scripts\Tab_Input_Field_CreateAccount.cs" />
-     <Compile Include="Assets\Scripts\Open_Settings.cs" />
-     <Compile Include="Assets\Scripts\Create_New.cs" />
-     <Compile Include="Assets\Scripts\Start_Quit.cs" />
-     <Compile Include="Assets\Scripts\PopUps.cs" />
-     <Compile Include="Assets\Scripts\Email_Address.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\Login_Check.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\DOB_dropdown.cs" />
+     <Compile Include="Assets\Scripts\Character Creation\Character_Creation_Select.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\Create_Account.cs" />
+     <Compile Include="Assets\Scripts\Loading Screen\Loading_Screen.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\Tab_Input_Field_MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Character Creation\Arrows.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\Start_Quit.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\Open_Settings.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\PopUps.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\Help_Button.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\Email_Address.cs" />
+     <Compile Include="Assets\Scripts\Character Select\Create_New.cs" />
+     <Compile Include="Assets\Scripts\Character Creation\Create_UI.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\Tab_Input_Field_CreateAccount.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\Back_Button.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

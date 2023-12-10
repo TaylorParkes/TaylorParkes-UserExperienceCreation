@@ -11,6 +11,7 @@ public class Tab_Input_Field_MainMenu : MonoBehaviour
 
     public void Update()
     {
+        // Move down menus using TAB
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             TMP_InputField currentInputField = EventSystem.current.currentSelectedGameObject.GetComponent<TMP_InputField>();
